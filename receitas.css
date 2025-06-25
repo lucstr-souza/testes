@@ -66,17 +66,17 @@ li {
     margin-top: 30px;
 }
 
-.header-container {
+header {
     text-align: center;
     margin-bottom: 30px;
 }
 
-.header-container header h1 {
+header h1 {
     font-size: 3rem;
     color: #ec1763;
 }
 
-.header-container .nome {
+.nome {
     font-family: 'Caveat', cursive;
     font-size: 1.1rem;
     color: #1c3645;
@@ -110,21 +110,20 @@ li {
 }
 
 
-/* BARRA DE BUSCA */
-.barra-busca {
+#form-busca{
     margin-bottom: 15px;
 }
 
-.barra-busca input {
+#form-busca input {
     padding: 10px;
     border: none;
     border-radius: 8px;
     width: 200px;
 }
 
-.barra-busca button {
+#form-busca button {
     padding: 10px 15px;
-    background-color: #ec1763;
+    background-color: #cdd629;
     color: white;
     border: none;
     border-radius: 8px;
@@ -133,11 +132,11 @@ li {
     transition: 0.3s;
 }
 
-.barra-busca button:hover {
-    background-color: #cdd629;
+#form-busca button:hover {
+    background-color: #ec1763;
 }
 
-.main {
+main {
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -190,8 +189,7 @@ li {
     background-color: #ec1763;
 }
 
-/* RODAPÉ */
-.footer {
+footer {
     text-align: center;
     margin-top: 50px;
 }
