@@ -199,3 +199,25 @@ footer p {
     color: #999;
     font-family: 'Quicksand', sans-serif;
 }
+.avaliacao {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.estrelas {
+  font-size: 2.5rem;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.estrelas .ativa {
+  color: #ec1763;
+}
+
+#mensagem-avaliacao {
+  margin-top: 10px;
+  font-family: "Quicksand";
+  color: #1c3645;
+  font-size: 1.2rem;
+}
+
